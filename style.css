@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 50px 0 0 0;
+    font-size: 3rem;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0 0 50px 0;
+    background-color: #000080;
+    font-size: 1.67rem;
+}
+
+header ul {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: #0000ff;
+}
+
+header ul li {
+    margin: 0;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+header ul li a {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration-line: underline;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main {
+    margin: 0;
+    padding: 40px 150px 40px 150px;
+}
+
+main section h3 {
+    padding: 0 0 20px 0;
+}
+
+main section p {
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+main section ol {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+main section fieldset {
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    Poderia ter usado:
+    margin: 40px auto 0 auto;
+    */
+    padding: 24px;
+    background-color: #F0F8FF;
+    border-radius: 5px;
+    width: 30%;
+    display: block;  
+}
+
+main section fieldset form input, textarea, button {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+footer {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: #000080;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
